@@ -461,15 +461,15 @@ main {
   color: #fff;
   font-size: 16px;
   font-weight: 500;
-  line-height: 150%;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
 .social-media-footer {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  margin-left: 120px;
+  align-items: baseline;
 }
 .social-media-icons {
   display: flex;
@@ -478,4 +478,7 @@ main {
 .container-footer {
   display: flex;
   flex-direction: row;
+}
+.logo-para {
+  margin-right: 120px;
 }
