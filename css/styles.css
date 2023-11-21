@@ -119,12 +119,6 @@ main {
   left: 0;
   bottom: -1px;
 }
-.portfolio:hover::after {
-  width: 66px;
-}
-.contacts:hover::after {
-  width: 67px;
-}
 
 .address {
   font-style: normal;
