@@ -416,7 +416,6 @@ main {
 }
 .overlay {
   left: 0;
-  z-index: -1;
   color: #f4f4fd;
   font-size: 16px;
   font-weight: 400;
@@ -480,14 +479,19 @@ main {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  margin-left: 120px;
+}
+.logo-footer-n-text {
+  margin-right: 120px;
 }
 .social-media-icons {
   display: flex;
   gap: 16px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container-footer {
   display: flex;
   flex-direction: row;
+  align-items: baseline;
+}
+.icon-footer {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
