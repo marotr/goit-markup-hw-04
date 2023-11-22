@@ -123,12 +123,6 @@ main {
   bottom: -1px;
   color: #404bbf;
 }
-.portfolio-menu:hover::after {
-  width: 66px;
-}
-.contacts:hover::after {
-  width: 67px;
-}
 
 .address {
   font-style: normal;
@@ -497,5 +491,11 @@ main {
   align-items: baseline;
 }
 .icon-footer {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
