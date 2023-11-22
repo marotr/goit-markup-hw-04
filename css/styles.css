@@ -121,6 +121,7 @@ main {
   position: absolute;
   left: 0;
   bottom: -1px;
+  color: #404bbf;
 }
 .portfolio-menu:hover::after {
   width: 66px;
