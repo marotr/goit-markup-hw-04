@@ -90,14 +90,12 @@ main {
 .logo-grey {
   color: #2e2f42;
 }
-.studio {
-  color: #404bbf;
-}
+
 .menu {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  color: #2e2f42;
+  color: #404bbf;
   letter-spacing: 0.32px;
   text-decoration: none;
   padding: 24px 0;
@@ -107,6 +105,9 @@ main {
 .menu:hover,
 .menu:focus {
   color: #404bbf;
+}
+.menu:not(:hover) {
+  color: #2e2f42;
 }
 .menu:hover::after {
   width: 48px;
