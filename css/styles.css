@@ -103,6 +103,9 @@ main {
   position: relative;
   display: block;
 }
+.menu.current {
+  color: #404bbf;
+}
 .menu:hover,
 .menu:focus {
   color: #404bbf;
